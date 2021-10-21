@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "g5XOQQ1iWBYX+EMEiTXYYWAHZWKMrmProqXlZlaaUWlzVceX0KRktvabFuCOkTFMMNbngNkg8ZAaJ6QApr+U+Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hetairan\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hetairan\\.nuget\\packages\\microsoft.sqlserver.netcoreglobalization\\140.17279.0-xplat\\microsoft.sqlserver.netcoreglobalization.140.17279.0-xplat.nupkg.sha512",
+    "C:\\Users\\hetairan\\.nuget\\packages\\microsoft.sqlserver.sqlparser\\140.17279.0-xplat\\microsoft.sqlserver.sqlparser.140.17279.0-xplat.nupkg.sha512"
+  ],
+  "logs": []
+}

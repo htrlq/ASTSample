@@ -1,0 +1,133 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Microsoft.SqlServer.NetCoreGlobalization/140.17279.0-xplat": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.SqlServer.NetCoreGlobalization.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.SqlServer.NetCoreGlobalization.dll": {}
+        }
+      },
+      "Microsoft.SqlServer.SqlParser/140.17279.0-xplat": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.SqlServer.NetCoreGlobalization": "140.17279.0-xplat"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.SqlServer.SqlParser.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.SqlServer.SqlParser.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.SqlServer.NetCoreGlobalization/140.17279.0-xplat": {
+      "sha512": "yikGByUsdMgSXCDEwq3JVkwMwUB9MYjMPetGbzOMk6gMLKlafUx8v266x9LAZZQJ2mHCcxg1tZixYE3H8wDa1Q==",
+      "type": "package",
+      "path": "microsoft.sqlserver.netcoreglobalization/140.17279.0-xplat",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.SqlServer.NetCoreGlobalization.dll",
+        "microsoft.sqlserver.netcoreglobalization.140.17279.0-xplat.nupkg.sha512",
+        "microsoft.sqlserver.netcoreglobalization.nuspec"
+      ]
+    },
+    "Microsoft.SqlServer.SqlParser/140.17279.0-xplat": {
+      "sha512": "PBpRGX+TNguVWycm7RZTpMxst5Pe1Xs/DYm6uId0R4j+tXd5lbhqhX37X3R8V50icf+irzYDL5NoPiYlNdcTng==",
+      "type": "package",
+      "path": "microsoft.sqlserver.sqlparser/140.17279.0-xplat",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.SqlServer.SqlParser.dll",
+        "microsoft.sqlserver.sqlparser.140.17279.0-xplat.nupkg.sha512",
+        "microsoft.sqlserver.sqlparser.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Microsoft.SqlServer.SqlParser >= 140.17279.0-xplat"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\hetairan\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\hetairan\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectName": "WebApplication1",
+      "projectPath": "C:\\Users\\hetairan\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "packagesPath": "C:\\Users\\hetairan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hetairan\\source\\repos\\WebApplication1\\WebApplication1\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\hetairan\\source\\repos\\WebApplication1\\NuGet.Config",
+        "C:\\Users\\hetairan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-public/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Microsoft.SqlServer.SqlParser": {
+            "target": "Package",
+            "version": "[140.17279.0-xplat, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

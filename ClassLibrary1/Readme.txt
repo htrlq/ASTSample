@@ -1,0 +1,1 @@
+﻿select Id,Name,Age, Address as Path from User
